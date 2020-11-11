@@ -15,7 +15,7 @@ header("location:templates/brief");
 <!DOCTYPE html>
 <html>
 <head>
-<title>Nokarin Travel and Tours</title>
+<title>Inventory System</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <?php
@@ -23,7 +23,7 @@ header("location:templates/brief");
  ?>
 </head>
 
-<body style="background-image: url('sirRommel.jpg'); background-size:cover; background-repeat: no-repeat; object-fit: cover; opacity: 0.9; width:100%; height:100%;" alt="Rommel" class="responsive">
+<body style="background-image: url('inventorylogo.png'); background-size:cover; background-repeat: no-repeat; object-fit: cover; opacity: 0.9; width:100%; height:100%;" alt="Rommel" class="responsive">
 
 
 <!-- Navbar -->
@@ -49,7 +49,7 @@ header("location:templates/brief");
     
   </div>
 </div>
-<h2 style="color:white; text-align:center; margin-top:100px;">Nokarin Travel and Tours</h2>
+<h2 style="color:white; text-align:center; margin-top:100px;"></h2>
 
 
 <center>
@@ -70,9 +70,9 @@ header("location:templates/brief");
 	<div class="custom-select" style="width:200px;">
     <select name="regtype" required>
     <option value="0">REGISTER AS</option>
-    <option value="3">Operator</option>
+   
     <option value="2">Client</option>
-	<option value="1">Nokarin Officer</option>
+	
 
   </select>
 </div>
@@ -95,7 +95,7 @@ header("location:templates/brief");
 </body>
 <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center" style="width:100%;">
   <h4>Follow Us</h4>
-  <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/nokarintravelandtours/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
   <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
   <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
   <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Instagram"><i class="fa fa-instagram"></i></a>

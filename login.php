@@ -22,7 +22,7 @@ if(isset($_POST['submitLogin']))
 <!DOCTYPE html>
 <html>
 <head>
-<title>Nokarin Travel and Tours</title>
+<title>Inventory System</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <?php
@@ -30,7 +30,7 @@ if(isset($_POST['submitLogin']))
  ?>
 </head>
 
-<body style="background-image: url('sirRommel.jpg'); background-repeat: no-repeat; background-size:cover; object-fit: cover; opacity: 0.9; width:100%; height:100%;" alt="Rommel" class="responsive">
+<body style="background-image: url('inventorylogo.png'); background-repeat: no-repeat; background-size:cover; object-fit: cover; opacity: 0.9; width:100%; height:100%;" alt="Rommel" class="responsive">
 
 
 <!-- Navbar -->
@@ -63,7 +63,7 @@ if(isset($_POST['submitLogin']))
   
   <form class="modal-content animate" method="post" style="width:300px;">
 <div style="position:relative; text-align:center; ">
-<h2 style="color:green;">Nokarin Travel and Tours</h2>
+<h2 style="color:green;"></h2>
 </div>
 <h4 style="color:dodgerblue; font-size:16px; margin:10px;" id="loginmorito"></h4>
     <div class="container">
@@ -86,7 +86,7 @@ if(isset($_POST['submitLogin']))
 
 <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center" style="width:100%;">
   <h4>Follow Us</h4>
-  <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/nokarintravelandtours/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
   <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
   <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
   <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Instagram"><i class="fa fa-instagram"></i></a>
